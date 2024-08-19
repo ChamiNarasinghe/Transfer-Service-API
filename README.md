@@ -1,17 +1,19 @@
 # Transfer-Service-API
 This is a simple RESTful API built with Flask for transferring funds between accounts. The API allows you to create accounts, transfer funds between them, and check the balance of individual accounts.
 
-Features
+## Features :
 Create Account: Initialize accounts with a specified balance.
+
 Transfer Funds: Transfer a specified amount from one account to another.
+
 Check Balance: Retrieve the balance of a specific account.
 
-Project Structure
-app.py: The main Flask application that defines the API endpoints.
-models.py: Contains the Account and Transaction classes used to represent the core data models.
-services.py: Implements the TransferService class, handling the business logic for account creation, fund transfer, and balance retrieval.
+## Project Structure :
+1.app.py: The main Flask application that defines the API endpoints.
+2.models.py: Contains the Account and Transaction classes used to represent the core data models.
+3.services.py: Implements the TransferService class, handling the business logic for account creation, fund transfer, and balance retrieval.
 
-API Endpoints
+## API Endpoints :
 
 1.Transfer Funds
 
@@ -23,7 +25,7 @@ Method: POST
 Endpoint: /balance/<account_number>
 Method: GET
 
-Postman Screenshot:
+## Postman Screenshot:
 
 ![Screenshot (269)](https://github.com/user-attachments/assets/969d31ab-d60a-474b-abec-e7e3819364ac)
 
