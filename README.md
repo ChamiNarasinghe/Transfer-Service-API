@@ -29,7 +29,7 @@ Endpoint: /balance/<account_number>
 
 Method: GET
 
-## Postman Screenshot:
+## Postman Screenshots:
 
 ![Screenshot (269)](https://github.com/user-attachments/assets/969d31ab-d60a-474b-abec-e7e3819364ac)
 
