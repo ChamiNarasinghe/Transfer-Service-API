@@ -23,7 +23,7 @@ Endpoint: /transfer
 
 Method: POST
 
-2. Check Account Balance
+2.Check Account Balance
 
 Endpoint: /balance/<account_number>
 
